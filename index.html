@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" data-lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KXHXWVJ1Q9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KXHXWVJ1Q9');
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9308911342897694"
-     crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="title">Claude Code Tutorial — Master AI-Powered Development</title>
-    <meta name="description" content="A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant from Anthropic. Learn installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
+    <title>Claude Code Tutorial — Master AI-Powered Development</title>
+    <meta name="description" content="A comprehensive tutorial for Claude Code — the AI-powered CLI coding assistant from Anthropic. 30+ in-depth lessons covering installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
     <meta name="keywords" content="Claude Code, tutorial, AI coding, CLI, Anthropic, slash commands, CLAUDE.md, AI assistant, coding tutorial, developer tools">
     <meta name="author" content="Claude Code Tutorial">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0d14'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-size='22' font-weight='bold' fill='%23d4a574' font-family='serif'%3E◈%3C/text%3E%3C/svg%3E">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0d14'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-size='22' font-weight='bold' fill='%23d4a574' font-family='serif'%3E◈%3C/text%3E%3C/svg%3E">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://claude-code.tutorial">
@@ -32,7 +17,7 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Claude Code Tutorial — Master AI-Powered Development">
-    <meta property="og:description" content="A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant. Learn installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
+    <meta property="og:description" content="A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant. 30+ in-depth lessons covering installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
     <meta property="og:site_name" content="Claude Code Tutorial">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://claude-code.tutorial/og-image.png">
@@ -42,42 +27,36 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Claude Code Tutorial — Master AI-Powered Development">
-    <meta name="twitter:description" content="A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant. Learn installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
+    <meta name="twitter:description" content="A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant. 30+ in-depth lessons covering installation, slash commands, CLAUDE.md, permissions, hooks, and skills.">
     <meta name="twitter:image" content="https://claude-code.tutorial/og-image.png">
 
-    <!-- Structured Data (Schema.org) -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Claude Code Tutorial",
       "url": "https://claude-code.tutorial",
-      "description": "A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant from Anthropic.",
+      "description": "A comprehensive tutorial for Claude Code, the AI-powered CLI coding assistant from Anthropic. 30+ in-depth lessons.",
       "inLanguage": ["en", "zh"],
       "about": {
         "@type": "SoftwareApplication",
         "name": "Claude Code",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "macOS, Linux, Windows"
-      },
-      "hasPart": [
-        {
-          "@type": "HowTo",
-          "name": "Installing Claude Code",
-          "step": [
-            { "@type": "HowToStep", "position": 1, "text": "Open your terminal" },
-            { "@type": "HowToStep", "position": 2, "text": "Run the install command for your platform" },
-            { "@type": "HowToStep", "position": 3, "text": "Navigate to your project and run 'claude'" }
-          ]
-        }
-      ]
+      }
     }
     </script>
 
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9308911342897694" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -86,629 +65,50 @@
         <div class="nav-inner">
             <a href="#" class="nav-logo">
                 <span class="logo-icon">◈</span>
-                <span data-i18n="nav_title">Claude Code Tutorial</span>
+                <span data-i18n="site_name">Claude Code Tutorial</span>
             </a>
-            <div class="nav-actions">
-                <a href="#what" class="nav-link" data-i18n="nav_what">What is it</a>
-                <a href="#install" class="nav-link" data-i18n="nav_install">Install</a>
-                <a href="#start" class="nav-link" data-i18n="nav_start">Get Started</a>
-                <a href="#features" class="nav-link" data-i18n="nav_features">Features</a>
-                <a href="#usage" class="nav-link" data-i18n="nav_usage">Usage</a>
-                <a href="#tips" class="nav-link" data-i18n="nav_tips">Tips</a>
-                <a href="#faq" class="nav-link" data-i18n="nav_faq">FAQ</a>
-                <a href="https://code.claude.com/docs" class="nav-link nav-link-external" target="_blank" rel="noopener" data-i18n="nav_docs">Docs ↗</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#" class="nav-link" data-i18n="nav_home">Home</a>
+                <a href="#all-lessons" class="nav-link" data-i18n="nav_lessons">Lessons</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">About</a>
+                <a href="privacy.html" class="nav-link" data-i18n="nav_privacy">Privacy</a>
+                <a href="terms.html" class="nav-link" data-i18n="nav_terms">Terms</a>
                 <button class="lang-switch" id="langSwitch" aria-label="Switch language">
                     <span class="lang-option lang-active" data-lang-val="en">EN</span>
                     <span class="lang-divider">/</span>
                     <span class="lang-option" data-lang-val="zh">中文</span>
                 </button>
             </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <header class="hero" id="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <div class="hero-badge" data-i18n="hero_badge">AI-POWERED CLI TOOL</div>
-            <h1 data-i18n="hero_title">Master <span class="gradient-text">Claude Code</span></h1>
-            <p class="hero-subtitle" data-i18n="hero_subtitle">
-                Your intelligent terminal companion. Write, refactor, debug, and ship code faster with Claude Code — the AI agent that lives in your terminal.
-            </p>
-            <div class="hero-buttons">
-                <a href="#install" class="btn btn-primary" data-i18n="hero_cta">Get Started Free</a>
-                <a href="#what" class="btn btn-secondary" data-i18n="hero_learn">Learn More →</a>
-                <a href="https://code.claude.com/docs" class="btn btn-outline" target="_blank" rel="noopener" data-i18n="hero_docs">Official Docs ↗</a>
-            </div>
-            <div class="hero-terminal">
-                <div class="terminal-bar">
-                    <span class="terminal-dot red"></span>
-                    <span class="terminal-dot yellow"></span>
-                    <span class="terminal-dot green"></span>
-                    <span class="terminal-title">claude</span>
-                </div>
-                <div class="terminal-body">
-                    <span class="prompt">$</span> <span class="cmd">claude</span>
-                    <br>
-                    <span class="output">Hello! I'm Claude Code. How can I help you today?</span>
-                    <br><br>
-                    <span class="prompt">></span> <span class="cmd-typed">Add a dark mode toggle to my React app</span><span class="cursor">▊</span>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- What is Claude Code -->
-    <section id="what" class="section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="what_title">What is Claude Code?</h2>
-            <p class="section-lead" data-i18n="what_lead">
-                Claude Code is Anthropic's official CLI tool that brings Claude directly into your terminal. It understands your codebase, edits files, runs commands, and automates your development workflow — all through natural language.
-            </p>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-icon">🖥️</div>
-                    <h3 data-i18n="what_card1_title">Terminal-Native</h3>
-                    <p data-i18n="what_card1_desc">Works where you work. No context switching between IDE and AI — Claude lives right in your shell.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">📁</div>
-                    <h3 data-i18n="what_card2_title">Codebase Aware</h3>
-                    <p data-i18n="what_card2_desc">Automatically indexes your project. Claude understands your file structure, git history, and code patterns.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🔧</div>
-                    <h3 data-i18n="what_card3_title">Direct Editing</h3>
-                    <p data-i18n="what_card3_desc">Claude creates and edits files directly. No copy-paste — it reads your codebase and writes changes inline.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">⚡</div>
-                    <h3 data-i18n="what_card4_title">Command Execution</h3>
-                    <p data-i18n="what_card4_desc">Runs shell commands, installs packages, runs tests, and manages git — all with your approval.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Installation -->
-    <section id="install" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title" data-i18n="install_title">Installation</h2>
-            <p class="section-lead" data-i18n="install_lead">
-                Get Claude Code up and running in under a minute. Available on macOS, Linux, and Windows.
-            </p>
-            <div class="install-tabs">
-                <div class="tab-buttons">
-                    <button class="tab-btn active" data-tab="macos">macOS</button>
-                    <button class="tab-btn" data-tab="linux">Linux</button>
-                    <button class="tab-btn" data-tab="windows">Windows</button>
-                    <button class="tab-btn" data-tab="npm">npm</button>
-                </div>
-                <div class="tab-content active" data-tab-content="macos">
-                    <div class="code-block">
-                        <div class="code-label">Terminal</div>
-                        <pre><code>brew install claude-code</code></pre>
-                        <button class="copy-btn" data-copy="brew install claude-code" data-i18n="copy">Copy</button>
-                    </div>
-                </div>
-                <div class="tab-content" data-tab-content="linux">
-                    <div class="code-block">
-                        <div class="code-label">Terminal</div>
-                        <pre><code>curl -fsSL https://claude.ai/install.sh | bash</code></pre>
-                        <button class="copy-btn" data-copy="curl -fsSL https://claude.ai/install.sh | bash" data-i18n="copy">Copy</button>
-                    </div>
-                </div>
-                <div class="tab-content" data-tab-content="windows">
-                    <div class="code-block">
-                        <div class="code-label">PowerShell</div>
-                        <pre><code>irm https://claude.ai/install.ps1 | iex</code></pre>
-                        <button class="copy-btn" data-copy="irm https://claude.ai/install.ps1 | iex" data-i18n="copy">Copy</button>
-                    </div>
-                </div>
-                <div class="tab-content" data-tab-content="npm">
-                    <div class="code-block">
-                        <div class="code-label">Terminal</div>
-                        <pre><code>npm install -g @anthropic-ai/claude-code</code></pre>
-                        <button class="copy-btn" data-copy="npm install -g @anthropic-ai/claude-code" data-i18n="copy">Copy</button>
-                    </div>
-                </div>
-            </div>
-            <p class="install-note" data-i18n="install_note">
-                After installation, run <code>claude</code> in your project directory to start.
-            </p>
-        </div>
-    </section>
-
-    <!-- Getting Started -->
-    <section id="start" class="section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="start_title">Getting Started</h2>
-            <p class="section-lead" data-i18n="start_lead">Your first 5 minutes with Claude Code.</p>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3 data-i18n="start_step1_title">Navigate to your project</h3>
-                        <p data-i18n="start_step1_desc">Open your terminal and <code>cd</code> into any project directory. Claude Code works with any codebase — no configuration needed.</p>
-                        <div class="code-block compact">
-                            <pre><code>cd my-project</code></pre>
-                        </div>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3 data-i18n="start_step2_title">Launch Claude Code</h3>
-                        <p data-i18n="start_step2_desc">Type <code>claude</code> and press Enter. On first run, you'll authenticate with your Anthropic account.</p>
-                        <div class="code-block compact">
-                            <pre><code>claude</code></pre>
-                        </div>
-                    </div>
-                </div>
-                <div class="step">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3 data-i18n="start_step3_title">Start asking questions</h3>
-                        <p data-i18n="start_step3_desc">Describe what you want to do in plain English. Claude reads your codebase, understands context, and takes action.</p>
-                        <div class="code-block compact">
-                            <pre><code>> Add a rate limiter to the API endpoints</code></pre>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-    <section id="features" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title" data-i18n="features_title">Core Features</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <div class="feature-icon">📝</div>
-                    <h3 data-i18n="feature1_title">Code Generation</h3>
-                    <p data-i18n="feature1_desc">Generate entire files, functions, or modules from natural language descriptions. Claude writes idiomatic, well-structured code.</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🔍</div>
-                    <h3 data-i18n="feature2_title">Code Review</h3>
-                    <p data-i18n="feature2_desc">Ask Claude to review your changes. It catches bugs, suggests improvements, and enforces best practices.</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🐛</div>
-                    <h3 data-i18n="feature3_title">Debugging</h3>
-                    <p data-i18n="feature3_desc">Paste an error message and Claude traces the root cause, proposes a fix, and applies it — all in one go.</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🔄</div>
-                    <h3 data-i18n="feature4_title">Refactoring</h3>
-                    <p data-i18n="feature4_desc">Rename variables, extract functions, migrate patterns — Claude handles cross-file refactors safely.</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🧪</div>
-                    <h3 data-i18n="feature5_title">Test Generation</h3>
-                    <p data-i18n="feature5_desc">Generate unit tests, integration tests, and edge case coverage. Claude analyzes your code to write meaningful tests.</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">📦</div>
-                    <h3 data-i18n="feature6_title">Git Integration</h3>
-                    <p data-i18n="feature6_desc">Create commits, manage branches, write PR descriptions, and resolve merge conflicts with Claude's help.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Usage Guide -->
-    <section id="usage" class="section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="usage_title">Usage Guide</h2>
-            <p class="section-lead" data-i18n="usage_lead">
-                Master Claude Code's slash commands, configuration, and automation to work smarter and faster.
-            </p>
-
-            <!-- Sub-nav for usage -->
-            <div class="usage-subnav">
-                <a href="#usage-commands" data-i18n="usage_sub_commands">Commands</a>
-                <a href="#usage-init" data-i18n="usage_sub_init">/init</a>
-                <a href="#usage-compact" data-i18n="usage_sub_compact">/compact</a>
-                <a href="#usage-claudemd" data-i18n="usage_sub_claudemd">CLAUDE.md</a>
-                <a href="#usage-permissions" data-i18n="usage_sub_perms">Permissions</a>
-                <a href="#usage-hooks" data-i18n="usage_sub_hooks">Hooks</a>
-                <a href="#usage-skills" data-i18n="usage_sub_skills">Skills</a>
-            </div>
-
-            <!-- Essential Slash Commands -->
-            <div id="usage-commands" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_cmd_title">Essential Slash Commands</h3>
-                <p class="usage-desc" data-i18n="usage_cmd_desc">
-                    Type <code>/</code> in Claude Code to see the interactive command picker. Here are the commands you'll use every day:
-                </p>
-                <div class="cmd-table-wrap">
-                    <table class="cmd-table">
-                        <thead>
-                            <tr>
-                                <th data-i18n="tbl_command">Command</th>
-                                <th data-i18n="tbl_what">What it does</th>
-                                <th data-i18n="tbl_when">When to use</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><code>/init</code></td>
-                                <td data-i18n="cmd_init_desc">Auto-generate project CLAUDE.md with tech stack &amp; conventions</td>
-                                <td data-i18n="cmd_init_when">First time in any project</td>
-                            </tr>
-                            <tr>
-                                <td><code>/compact [hint]</code></td>
-                                <td data-i18n="cmd_compact_desc">Compress conversation to a summary, freeing context</td>
-                                <td data-i18n="cmd_compact_when">Conversation gets long, before big tasks</td>
-                            </tr>
-                            <tr>
-                                <td><code>/clear</code></td>
-                                <td data-i18n="cmd_clear_desc">Reset the entire conversation (aliases: /reset, /new)</td>
-                                <td data-i18n="cmd_clear_when">Switching topics completely</td>
-                            </tr>
-                            <tr>
-                                <td><code>/context</code></td>
-                                <td data-i18n="cmd_context_desc">Visualize context window usage by component</td>
-                                <td data-i18n="cmd_context_when">Debugging token usage, before large operations</td>
-                            </tr>
-                            <tr>
-                                <td><code>/usage</code></td>
-                                <td data-i18n="cmd_usage_desc">Show session token consumption & account usage stats</td>
-                                <td data-i18n="cmd_usage_when">Monitoring costs and usage</td>
-                            </tr>
-                            <tr>
-                                <td><code>/config</code></td>
-                                <td data-i18n="cmd_config_desc">Open interactive settings UI (theme, model, permissions)</td>
-                                <td data-i18n="cmd_config_when">Customizing the tool</td>
-                            </tr>
-                            <tr>
-                                <td><code>/permissions</code></td>
-                                <td data-i18n="cmd_perms_desc">Manage tool permission rules for security</td>
-                                <td data-i18n="cmd_perms_when">Controlling what Claude can execute automatically</td>
-                            </tr>
-                            <tr>
-                                <td><code>/doctor</code></td>
-                                <td data-i18n="cmd_doctor_desc">Run installation &amp; configuration diagnostics</td>
-                                <td data-i18n="cmd_doctor_when">Something isn't working right</td>
-                            </tr>
-                            <tr>
-                                <td><code>/model [name]</code></td>
-                                <td data-i18n="cmd_model_desc">Switch AI model: sonnet / opus / haiku</td>
-                                <td data-i18n="cmd_model_when">Need more power or lower cost</td>
-                            </tr>
-                            <tr>
-                                <td><code>/plan</code></td>
-                                <td data-i18n="cmd_plan_desc">Enter plan-only mode — analyze, don't edit</td>
-                                <td data-i18n="cmd_plan_when">Exploring before committing to changes</td>
-                            </tr>
-                            <tr>
-                                <td><code>/security-review</code></td>
-                                <td data-i18n="cmd_security_desc">Run a security audit on current branch changes</td>
-                                <td data-i18n="cmd_security_when">Before pushing sensitive code</td>
-                            </tr>
-                            <tr>
-                                <td><code>/simplify</code></td>
-                                <td data-i18n="cmd_simplify_desc">Review code for reuse, quality &amp; over-engineering</td>
-                                <td data-i18n="cmd_simplify_when">After a feature works, before merging</td>
-                            </tr>
-                            <tr>
-                                <td><code>/loop &lt;interval&gt; &lt;cmd&gt;</code></td>
-                                <td data-i18n="cmd_loop_desc">Run a command on a recurring interval</td>
-                                <td data-i18n="cmd_loop_when">Polling deploys, monitoring CI, periodic checks</td>
-                            </tr>
-                            <tr>
-                                <td><code>/mcp</code></td>
-                                <td data-i18n="cmd_mcp_desc">Manage MCP server connections &amp; OAuth</td>
-                                <td data-i18n="cmd_mcp_when">Connecting external tools &amp; APIs</td>
-                            </tr>
-                            <tr>
-                                <td><code>/hooks</code></td>
-                                <td data-i18n="cmd_hooks_desc">View &amp; configure tool-event automation hooks</td>
-                                <td data-i18n="cmd_hooks_when">Setting up auto-lint, auto-test, safety gates</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- /init Deep Dive -->
-            <div id="usage-init" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_init_title">/init — Project Setup Made Easy</h3>
-                <p class="usage-desc" data-i18n="usage_init_desc">
-                    <code>/init</code> is the first command you should run in any project. It scans your codebase and generates a <code>CLAUDE.md</code> file that teaches Claude about your tech stack, coding conventions, build commands, and project structure.
-                </p>
-                <div class="code-block">
-                    <div class="code-label">Claude Code</div>
-                    <pre><code>/init</code></pre>
-                    <button class="copy-btn" data-copy="/init" data-i18n="copy">Copy</button>
-                </div>
-                <p class="usage-note" data-i18n="usage_init_note">
-                    After running /init, review the generated CLAUDE.md — add domain-specific context, team conventions, and any gotchas. The better your CLAUDE.md, the smarter Claude becomes in your project.
-                </p>
-            </div>
-
-            <!-- /compact Deep Dive -->
-            <div id="usage-compact" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_compact_title">/compact — Never Run Out of Context</h3>
-                <p class="usage-desc" data-i18n="usage_compact_desc">
-                    Claude Code has a context window limit. When your conversation gets long (many back-and-forth messages, large file reads), you'll approach that limit. <code>/compact</code> intelligently summarizes the conversation so far, preserving key decisions, ongoing tasks, and important context — then frees up space for more work.
-                </p>
-                <div class="usage-cards">
-                    <div class="card">
-                        <h4 data-i18n="compact_tip1_title">Compact with a hint</h4>
-                        <p data-i18n="compact_tip1_desc">Add a focus hint so the summary keeps what matters: <code>/compact keep the auth refactor context</code></p>
-                    </div>
-                    <div class="card">
-                        <h4 data-i18n="compact_tip2_title">Compact proactively</h4>
-                        <p data-i18n="compact_tip2_desc">Don't wait until you hit the limit. Compact before starting a new major task — it's faster and preserves better context.</p>
-                    </div>
-                    <div class="card">
-                        <h4 data-i18n="compact_tip3_title">Check usage first</h4>
-                        <p data-i18n="compact_tip3_desc">Run <code>/context</code> or <code>/usage</code> to see how full your context is. Compact when you're above 70%.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CLAUDE.md Deep Dive -->
-            <div id="usage-claudemd" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_claudemd_title">CLAUDE.md — Your AI Onboarding Doc</h3>
-                <p class="usage-desc" data-i18n="usage_claudemd_desc">
-                    <code>CLAUDE.md</code> is loaded at the start of every session. Think of it as the onboarding document for your AI pair programmer. Claude reads it to understand how your project works and how you like to code.
-                </p>
-                <div class="claudemd-hierarchy">
-                    <h4 data-i18n="claudemd_hierarchy_title">Configuration Hierarchy (later overrides earlier)</h4>
-                    <ol>
-                        <li><strong data-i18n="claudemd_l1">Enterprise</strong> — <code>/etc/claude-code/CLAUDE.md</code></li>
-                        <li><strong data-i18n="claudemd_l2">User Global</strong> — <code>~/.claude/CLAUDE.md</code></li>
-                        <li><strong data-i18n="claudemd_l3">User Rules</strong> — <code>~/.claude/rules/*.md</code></li>
-                        <li><strong data-i18n="claudemd_l4">Project</strong> — <code>./CLAUDE.md</code> or <code>./.claude/CLAUDE.md</code></li>
-                        <li><strong data-i18n="claudemd_l5">Project Rules</strong> — <code>./.claude/rules/*.md</code> (path-scoped)</li>
-                        <li><strong data-i18n="claudemd_l6">Local Overrides</strong> — <code>./CLAUDE.local.md</code> (auto-gitignored)</li>
-                    </ol>
-                </div>
-                <p class="usage-note" data-i18n="usage_claudemd_note">
-                    Keep CLAUDE.md under ~200 lines. Use <code>@path/to/file</code> imports for detailed reference docs. Move large instruction sets to <code>.claude/rules/</code> or custom skills.
-                </p>
-            </div>
-
-            <!-- Permissions -->
-            <div id="usage-permissions" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_perms_title">Permission System — Stay in Control</h3>
-                <p class="usage-desc" data-i18n="usage_perms_desc">
-                    Claude Code's permission system lets you control exactly which actions Claude can take and when it needs your approval. Configure it with <code>/permissions</code> or <code>/config</code> → Permissions tab.
-                </p>
-                <div class="perms-cards">
-                    <div class="card">
-                        <div class="card-icon">📖</div>
-                        <h4 data-i18n="perms_read_title">Read-Only Tools</h4>
-                        <p data-i18n="perms_read_desc">Read, Glob, Grep — safe to allow without prompt. Claude can explore your codebase freely.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">✏️</div>
-                        <h4 data-i18n="perms_edit_title">Edit & Write</h4>
-                        <p data-i18n="perms_edit_desc">Edit, Write — may require confirmation. You review changes before they land.</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">⚡</div>
-                        <h4 data-i18n="perms_bash_title">Shell Execution</h4>
-                        <p data-i18n="perms_bash_desc">Bash — can be allowed with a denylist of dangerous commands, or always prompt.</p>
-                    </div>
-                </div>
-                <p class="usage-note" data-i18n="usage_perms_note">
-                    Permission flow: Enterprise policy → User settings → Project settings → Session overrides. Start restrictive and loosen as you build trust.
-                </p>
-            </div>
-
-            <!-- Hooks -->
-            <div id="usage-hooks" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_hooks_title">Hooks — Enforce Your Rules Automatically</h3>
-                <p class="usage-desc" data-i18n="usage_hooks_desc">
-                    Hooks are event-driven scripts that fire at specific moments — before a tool runs, after a file is edited, when a session starts. Unlike CLAUDE.md (advisory), hooks are <em>enforcement</em>.
-                </p>
-                <div class="code-block">
-                    <div class="code-label">.claude/settings.json</div>
-                    <pre><code>{
-  "hooks": {
-    "PostToolUse": [{
-      "matcher": "Edit|Write",
-      "command": "npx eslint --fix \"$CLAUDE_FILE_PATH\""
-    }]
-  }
-}</code></pre>
-                    <button class="copy-btn" data-copy='{
-  "hooks": {
-    "PostToolUse": [{
-      "matcher": "Edit|Write",
-      "command": "npx eslint --fix \"$CLAUDE_FILE_PATH\""
-    }]
-  }
-}' data-i18n="copy">Copy</button>
-                </div>
-                <p class="usage-note" data-i18n="usage_hooks_note">
-                    Common hook use cases: auto-lint after edits, run tests after file changes, block edits to <code>.env</code> files, enforce commit message formats. Configure in <code>settings.json</code> under <code>"hooks"</code>.
-                </p>
-            </div>
-
-            <!-- Skills -->
-            <div id="usage-skills" class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_skills_title">Skills — Reusable Workflows On Demand</h3>
-                <p class="usage-desc" data-i18n="usage_skills_desc">
-                    Skills are reusable instruction packs stored in <code>.claude/skills/</code>. Unlike CLAUDE.md (loaded every session), skills load only when invoked — keeping your context lean. Create a <code>SKILL.md</code> file to define a skill.
-                </p>
-                <div class="code-block">
-                    <div class="code-label">.claude/skills/deploy/SKILL.md</div>
-                    <pre><code>---
-name: deploy
-description: Deploy the application. Trigger: "deploy", "ship it"
----
-
-# Deploy Workflow
-1. Run tests: `npm test`
-2. Build: `npm run build`
-3. Deploy: `npm run deploy`
-4. Verify: curl the health endpoint</code></pre>
-                    <button class="copy-btn" data-copy='---
-name: deploy
-description: Deploy the application. Trigger: "deploy", "ship it"
----
-
-# Deploy Workflow
-1. Run tests: `npm test`
-2. Build: `npm run build`
-3. Deploy: `npm run deploy`
-4. Verify: curl the health endpoint' data-i18n="copy">Copy</button>
-                </div>
-                <p class="usage-note" data-i18n="usage_skills_note">
-                    Invoke skills explicitly with <code>/deploy</code> or let Claude auto-match them by trigger words in your message. Great for: deployment workflows, database migrations, onboarding new team members, release checklists.
-                </p>
-            </div>
-
-            <!-- Keyboard Shortcuts -->
-            <div class="usage-block">
-                <h3 class="usage-title" data-i18n="usage_keys_title">Keyboard Shortcuts</h3>
-                <div class="keys-grid">
-                    <div class="key-item">
-                        <kbd>Shift</kbd> + <kbd>Tab</kbd>
-                        <span data-i18n="key_mode">Cycle interaction mode (Normal → Auto-Accept → Plan)</span>
-                    </div>
-                    <div class="key-item">
-                        <kbd>Ctrl</kbd> + <kbd>C</kbd>
-                        <span data-i18n="key_cancel">Cancel current generation</span>
-                    </div>
-                    <div class="key-item">
-                        <kbd>Ctrl</kbd> + <kbd>R</kbd>
-                        <span data-i18n="key_history">Search command history</span>
-                    </div>
-                    <div class="key-item">
-                        <kbd>/</kbd>
-                        <span data-i18n="key_picker">Open interactive command picker</span>
-                    </div>
-                    <div class="key-item">
-                        <kbd>Esc</kbd> ×2
-                        <span data-i18n="key_rewind">Rewind to last checkpoint</span>
-                    </div>
-                    <div class="key-item">
-                        <kbd>Ctrl</kbd> + <kbd>B</kbd>
-                        <span data-i18n="key_background">Send current task to background</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Tips & Tricks -->
-    <section id="tips" class="section">
-        <div class="container">
-            <h2 class="section-title" data-i18n="tips_title">Tips & Best Practices</h2>
-            <div class="tips-grid">
-                <div class="tip-card">
-                    <div class="tip-number">💡</div>
-                    <h3 data-i18n="tip1_title">Be Specific</h3>
-                    <p data-i18n="tip1_desc">Instead of "fix the bug", say "fix the null pointer in the login handler when email is blank". The more context, the better the result.</p>
-                </div>
-                <div class="tip-card">
-                    <div class="tip-number">🧠</div>
-                    <h3 data-i18n="tip2_title">Use CLAUDE.md</h3>
-                    <p data-i18n="tip2_desc">Create a <code>CLAUDE.md</code> file in your project root to teach Claude about your conventions, architecture, and preferences. It's like an onboarding doc for your AI pair programmer.</p>
-                </div>
-                <div class="tip-card">
-                    <div class="tip-number">🎯</div>
-                    <h3 data-i18n="tip3_title">One Task at a Time</h3>
-                    <p data-i18n="tip3_desc">Break large tasks into smaller, focused requests. Claude performs best with clear, scoped objectives rather than vague mega-tasks.</p>
-                </div>
-                <div class="tip-card">
-                    <div class="tip-number">✅</div>
-                    <h3 data-i18n="tip4_title">Review Before Committing</h3>
-                    <p data-i18n="tip4_desc">Always review Claude's changes before committing. Use <code>git diff</code> to inspect edits — Claude is powerful but not infallible.</p>
-                </div>
-                <div class="tip-card">
-                    <div class="tip-number">📸</div>
-                    <h3 data-i18n="tip5_title">Provide Screenshots</h3>
-                    <p data-i18n="tip5_desc">For UI work, Claude can read screenshots. Share a screenshot of your current UI and describe what you want changed — it understands visual context.</p>
-                </div>
-                <div class="tip-card">
-                    <div class="tip-number">🔒</div>
-                    <h3 data-i18n="tip6_title">Manage Permissions</h3>
-                    <p data-i18n="tip6_desc">Configure <code>settings.json</code> to control which actions Claude can take automatically. Start restrictive and loosen as you build trust.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
-            <div class="faq-list">
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span data-i18n="faq1_q">Is Claude Code free?</span>
-                        <span class="faq-arrow">▾</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p data-i18n="faq1_a">Claude Code is included with Claude Pro, Max, and Team subscriptions. API usage is billed separately through the Anthropic API at standard per-token rates.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span data-i18n="faq2_q">What languages does Claude Code support?</span>
-                        <span class="faq-arrow">▾</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p data-i18n="faq2_a">Claude Code supports virtually all programming languages — Python, JavaScript, TypeScript, Go, Rust, Java, C/C++, Ruby, PHP, Swift, Kotlin, and many more. It also handles configuration formats like YAML, TOML, JSON, and Dockerfiles.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span data-i18n="faq3_q">Does Claude Code send my code to the cloud?</span>
-                        <span class="faq-arrow">▾</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p data-i18n="faq3_a">Claude Code processes your code through Anthropic's API to generate responses. By default, Anthropic does not train on your data. Enterprise customers can set up private processing through AWS Bedrock or GCP Vertex AI.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span data-i18n="faq4_q">Can I use Claude Code offline?</span>
-                        <span class="faq-arrow">▾</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p data-i18n="faq4_a">Claude Code requires an internet connection to communicate with Anthropic's API. There is currently no fully offline mode, though features like codebase indexing work locally.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question" aria-expanded="false">
-                        <span data-i18n="faq5_q">How is this different from GitHub Copilot?</span>
-                        <span class="faq-arrow">▾</span>
-                    </button>
-                    <div class="faq-answer">
-                        <p data-i18n="faq5_a">Copilot is primarily an inline autocomplete tool that lives in your IDE. Claude Code is a full conversational agent in your terminal — it can read your entire codebase, execute commands, edit multiple files, manage git, and handle complex multi-step tasks autonomously.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Main Content Area — rendered by app.js -->
+    <main id="app"></main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <span class="logo-icon">◈</span>
-                    <span data-i18n="footer_brand">Claude Code Tutorial</span>
-                </div>
-                <p class="footer-text" data-i18n="footer_text">
-                    Built to help developers get the most out of Claude Code. Not affiliated with Anthropic.
-                </p>
-                <p class="footer-copy">© 2026 — <span data-i18n="footer_license">Free for everyone</span></p>
+            <div class="footer-brand">
+                <span class="logo-icon">◈</span>
+                <span data-i18n="site_name">Claude Code Tutorial</span>
             </div>
+            <p class="footer-text" data-i18n="footer_text">Built to help developers master Claude Code. Not affiliated with Anthropic.</p>
+            <p class="footer-copy">&copy; 2026 — <span data-i18n="footer_license">Free for everyone.</span></p>
         </div>
     </footer>
 
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-banner">
+        <p><span data-i18n="cookie_text">This site uses cookies from Google to deliver ads and analyze traffic. By continuing, you agree to our use of cookies.</span>
+        <a href="privacy.html" data-i18n="cookie_learn">Learn more</a></p>
+        <button id="cookie-accept" class="cookie-btn" data-i18n="cookie_ok">OK</button>
+    </div>
+
     <script src="js/i18n.js"></script>
+    <script src="js/content.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
